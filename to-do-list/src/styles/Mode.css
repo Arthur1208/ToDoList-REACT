@@ -1,0 +1,33 @@
+
+
+:root{
+    --background-color:white;
+    --fontColor : black;
+    --cardColor: #F4F4F4;
+    --taskColor : #FFD43B
+
+}
+
+[data-theme="night"]{
+    --background-color: rgb(15 23 42);
+    --fontColor : white;
+    --cardColor : #172A46;
+    --taskColor : #7a5af5;
+}
+
+
+.App{
+    background-color: var(--background-color);
+    color: var(--fontColor);
+    padding: 10px;
+    font-family: "Arial";
+}
+
+
+.menu-bar{
+    background-color: var(--cardColor);
+}
+
+.containerTask{
+    background-color: var(--taskColor);
+}

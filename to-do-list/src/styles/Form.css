@@ -1,0 +1,19 @@
+.formTask{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.formTask textarea{
+    height: 100px;
+    margin-bottom: 10px;
+}
+.formTask input,textarea{
+    border-radius: 3px;
+    border:solid #e5e7eb 1px
+
+}
+.formTask input[type="submit"]{
+    color: white;
+    background-color: #282828;
+}
